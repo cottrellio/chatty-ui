@@ -1,0 +1,19 @@
+{{#x-card
+  title='Login to Chatty'
+  buttonText='Login'}}
+  <div class="row">
+    {{x-input
+      classNames='col s12'
+      type='email'
+      label='Username'}}
+  </div>
+  <div class="row">
+    {{x-input
+      classNames='col s12'
+      type='password'
+      label='Password'}}
+  </div>
+  <div class="row">
+    <button {{action 'login'}}>Login</button>
+  </div>
+{{/x-card}}

@@ -1,0 +1,44 @@
+{{#x-card
+  onsubmit=attrs.onsubmit
+  title='Register with Chatty'
+  buttonText='Register'}}
+  <div class="row">
+    {{x-input
+      classNames='col s12'
+      type='email'
+      label='Email'}}
+  </div>
+  <div class="row">
+    {{x-input
+      classNames='col s12'
+      type='text'
+      label='First Name'}}
+  </div>
+  <div class="row">
+    {{x-input
+      classNames='col s12'
+      type='text'
+      label='Last Name'}}
+  </div>
+  <div class="row">
+    {{x-input
+      classNames='col s12'
+      type='text'
+      label='Username'}}
+  </div>
+  <div class="row">
+    {{x-input
+      classNames='col s12'
+      type='password'
+      label='Password'}}
+  </div>
+  <div class="row">
+    {{x-input
+      classNames='col s12'
+      type='password'
+      label='Confirm Password'}}
+  </div>
+  <div class="row">
+    <button {{action 'register'}}>Register</button>
+  </div>
+{{/x-card}}

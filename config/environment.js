@@ -4,6 +4,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'chatty',
+    podModulePrefix: '',
     environment,
     rootURL: '/',
     locationType: 'auto',
