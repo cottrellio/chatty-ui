@@ -1,12 +1,12 @@
 import Ember from 'ember';
 
-const { Component } = Ember;
+const { Component, get } = Ember;
 
 export default Component.extend({
 
   actions: {
     register() {
-      alert('Registering...');
+      get(this, 'onSubmit')();
     },
   },
 

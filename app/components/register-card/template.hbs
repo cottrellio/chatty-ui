@@ -1,42 +1,40 @@
 {{#x-card
-  onsubmit=attrs.onsubmit
-  title='Register with Chatty'
-  buttonText='Register'}}
+  title='Register with Chatty'}}
   <div class="row">
     {{x-input
-      classNames='col s12'
       type='email'
-      label='Email'}}
+      label='Email'
+      value=(mut model.email)}}
   </div>
-  <div class="row">
+   <div class="row">
     {{x-input
-      classNames='col s12'
       type='text'
-      label='First Name'}}
+      label='First Name'
+      value=(mut model.firstName)}}
   </div>
   <div class="row">
     {{x-input
-      classNames='col s12'
       type='text'
-      label='Last Name'}}
+      label='Last Name'
+      value=(mut model.lastName)}}
   </div>
   <div class="row">
     {{x-input
-      classNames='col s12'
       type='text'
-      label='Username'}}
+      label='Username'
+      value=(mut model.username)}}
   </div>
   <div class="row">
     {{x-input
-      classNames='col s12'
       type='password'
-      label='Password'}}
+      label='Password'
+      value=(mut model.password)}}
   </div>
   <div class="row">
     {{x-input
-      classNames='col s12'
       type='password'
-      label='Confirm Password'}}
+      label='Confirm Password'
+      value=(mut model.passwordConfirmation)}}
   </div>
   <div class="row">
     <button {{action 'register'}}>Register</button>

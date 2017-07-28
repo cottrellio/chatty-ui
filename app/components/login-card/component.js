@@ -1,12 +1,12 @@
 import Ember from 'ember';
 
-const { Component } = Ember;
+const { Component, get } = Ember;
 
 export default Component.extend({
 
   actions: {
     login() {
-      alert('Logging in...');
+      get(this, 'onSubmit')();
     },
   },
 
