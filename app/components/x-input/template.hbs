@@ -1,5 +1,7 @@
-{{input value=(mut value)
-        type=type}}
-<label>
+<label local-class="label">
   {{label}}{{yield}}
 </label>
+{{input local-class="input"
+        value=(mut value)
+        type=type}}
+<span local-class="message"></span>

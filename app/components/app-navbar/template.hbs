@@ -1,0 +1,15 @@
+{{#link-to 'application.index' local-class="brand"}}Chatty{{/link-to}}
+
+{{!-- {{#if session.isAuthenticated}}
+  <p>
+    Welcome, {{ currentUser.user.email }}
+  </p>
+{{/if}} --}}
+<nav local-class="nav">
+  {{#unless session.isAuthenticated}}
+    {{#link-to "auth.login" local-class="nav-item"}}Login{{/link-to}}
+    {{#link-to "auth.register" local-class="nav-item"}}Register{{/link-to}}
+  {{else}}
+    <span local-class="nav-item" {{action 'logout'}}>Logout</span>
+  {{/unless}}
+</nav>

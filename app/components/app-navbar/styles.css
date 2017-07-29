@@ -1,0 +1,33 @@
+ @import '../../styles/core/colors';
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: var(--DARK2);
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 3px solid transparent;
+  color: var(--LIGHT1);
+  font-weight: 200;
+  transition: border-color .5s ease, color .5s ease;
+
+  &:hover {
+    border-bottom: 3px solid var(--PRIMARY);
+    color: var(--PRIMARY);
+  }
+}
+
+.brand {
+  color: var(--PRIMARY);
+  font-size: 40px;
+  font-family: 'Leckerli One', cursive;
+  padding: 10px 20px;
+}

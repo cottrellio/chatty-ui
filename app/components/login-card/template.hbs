@@ -1,21 +1,32 @@
 {{#x-card
-  title='Login to Chatty'
+  title='Login'
   buttonText='Login'}}
   <div class="row">
     {{x-input
-      classNames='col s12'
-      type='email'
+      class="col-xs-12"
+      type="email"
       value=(mut model.email)
-      label='Username'}}
+      label="Email"}}
   </div>
   <div class="row">
     {{x-input
-      classNames='col s12'
-      type='password'
+      class="col-xs-12"
+      type="password"
       value=(mut model.password)
-      label='Password'}}
+      label="Password"}}
   </div>
   <div class="row">
-    <button {{action 'login'}}>Login</button>
+    {{#x-button
+      class="col-xs-12"
+      isSecondary=true
+      onClick=(action 'login')}}Login{{/x-button}}
+  </div>
+  <div class="row center-xs">
+    <div class="col-xs-12 col-sm-6 m-t-sm">
+      {{#link-to 'auth.register' local-class="link"}}I don't have an account{{/link-to}}
+    </div>
+    <div class="col-xs-12 col-sm-6 m-t-sm">
+      <a local-class="link" href="#">Forgot password?</a>
+    </div>
   </div>
 {{/x-card}}

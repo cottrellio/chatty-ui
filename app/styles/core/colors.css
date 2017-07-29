@@ -1,0 +1,24 @@
+:root {
+  /* Core */
+  --WHITE: #FFFFFF;
+  --BLACK: #000000;
+
+  --DARK1: #252C34;
+  --DARK2: #323B46;
+  --DARK3: #414549;
+
+  --LIGHT1: #F6F7F9;
+  --LIGHT2: #E2E2E2;
+  --LIGHT3: #B4B5B7;
+  --LIGHT4: #848990;
+
+  /* Status */
+  --SUCCESS: #38B55D;
+  --WARNING: #FACE57;
+  --ERROR: #FC513D;
+  --INFO: #25A1FB;
+
+  /* Brand */
+  --PRIMARY: #1DEDA9;
+  --SECONDARY: #6F42C1;
+}

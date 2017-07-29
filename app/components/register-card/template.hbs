@@ -1,42 +1,59 @@
 {{#x-card
-  title='Register with Chatty'}}
+  title='Register'}}
   <div class="row">
     {{x-input
+      class="col-xs-12"
       type='email'
-      label='Email'
+      label='Email *'
       value=(mut model.email)}}
   </div>
    <div class="row">
     {{x-input
+      class="col-xs-12"
       type='text'
       label='First Name'
       value=(mut model.firstName)}}
   </div>
   <div class="row">
     {{x-input
+      class="col-xs-12"
       type='text'
       label='Last Name'
       value=(mut model.lastName)}}
   </div>
   <div class="row">
     {{x-input
+      class="col-xs-12"
       type='text'
-      label='Username'
+      label='Username *'
       value=(mut model.username)}}
   </div>
   <div class="row">
     {{x-input
+      class="col-xs-12"
       type='password'
-      label='Password'
+      label='Password *'
       value=(mut model.password)}}
   </div>
   <div class="row">
     {{x-input
+      class="col-xs-12"
       type='password'
-      label='Confirm Password'
+      label='Confirm Password *'
       value=(mut model.passwordConfirmation)}}
   </div>
   <div class="row">
-    <button {{action 'register'}}>Register</button>
+    {{#x-button
+      class="col-xs-12"
+      isSecondary=true
+      onClick=(action 'register')}}Register{{/x-button}}
+  </div>
+  <div class="row center-xs">
+    <div class="col-xs-12 col-sm-6 m-t-sm">
+      {{#link-to 'auth.login' local-class="link"}}I have an account{{/link-to}}
+    </div>
+    <div class="col-xs-12 col-sm-6 m-t-sm">
+      <a local-class="link" href="#">Terms &amp; Conditions</a>
+    </div>
   </div>
 {{/x-card}}

@@ -1,0 +1,21 @@
+@import '../../styles/core/colors';
+
+.card {
+  padding: 40px;
+  border-radius: 3px;
+  background: var(--LIGHT1);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  color: var(--LIGHT3);
+  font-size: 40px;
+  font-family: 'Leckerli One', cursive;
+  margin-bottom: 40px;
+}

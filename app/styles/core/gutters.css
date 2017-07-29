@@ -1,0 +1,192 @@
+/* +++++++++++++++++++++ *\
+    Margins
+\* +++++++++++++++++++++ */
+
+/* xs (5px) */
+.m-xs {
+  margin: 5px;
+}
+.m-x-xs {
+  margin: 0 5px;
+}
+.m-y-xs {
+  margin: 5px 0;
+}
+.m-t-xs {
+  margin: 5px 0 0 0;
+}
+.m-r-xs {
+  margin: 0 5px 0 0;
+}
+.m-b-xs {
+  margin: 0 0 5px 0;
+}
+.m-l-xs {
+  margin: 0 0 0 5px;
+}
+
+/* sm (10px) */
+.m-sm {
+  margin: 10px;
+}
+.m-x-sm {
+  margin: 0 10px;
+}
+.m-y-sm {
+  margin: 10px 0;
+}
+.m-t-sm {
+  margin: 10px 0 0 0;
+}
+.m-r-sm {
+  margin: 0 10px 0 0;
+}
+.m-b-sm {
+  margin: 0 0 10px 0;
+}
+.m-l-sm {
+  margin: 0 0 0 10px;
+}
+
+/* md (20px) */
+.m-md {
+  margin: 20px;
+}
+.m-x-md {
+  margin: 0 20px;
+}
+.m-y-md {
+  margin: 20px 0;
+}
+.m-t-md {
+  margin: 20px 0 0 0;
+}
+.m-r-md {
+  margin: 0 20px 0 0;
+}
+.m-b-md {
+  margin: 0 0 20px 0;
+}
+.m-l-md {
+  margin: 0 0 0 20px;
+}
+
+/* lg (40px) */
+.m-lg {
+  margin: 40px;
+}
+.m-x-lg {
+  margin: 0 40px;
+}
+.m-y-lg {
+  margin: 40px 0;
+}
+.m-t-lg {
+  margin: 40px 0 0 0;
+}
+.m-r-lg {
+  margin: 0 40px 0 0;
+}
+.m-b-lg {
+  margin: 0 0 40px 0;
+}
+.m-l-lg {
+  margin: 0 0 0 40px;
+}
+
+
+/* +++++++++++++++++++++ *\
+    Padding
+\* +++++++++++++++++++++ */
+
+/* xs (5px) */
+.m-xs {
+  padding: 5px;
+}
+.m-x-xs {
+  padding: 0 5px;
+}
+.m-y-xs {
+  padding: 5px 0;
+}
+.m-t-xs {
+  padding: 5px 0 0 0;
+}
+.m-r-xs {
+  padding: 0 5px 0 0;
+}
+.m-b-xs {
+  padding: 0 0 5px 0;
+}
+.m-l-xs {
+  padding: 0 0 0 5px;
+}
+
+/* sm (10px) */
+.p-sm {
+  padding: 10px;
+}
+.p-x-sm {
+  padding: 0 10px;
+}
+.p-y-sm {
+  padding: 10px 0;
+}
+.p-t-sm {
+  padding: 10px 0 0 0;
+}
+.p-r-sm {
+  padding: 0 10px 0 0;
+}
+.p-b-sm {
+  padding: 0 0 10px 0;
+}
+.p-l-sm {
+  padding: 0 0 0 10px;
+}
+
+/* md (20px) */
+.m-md {
+  padding: 20px;
+}
+.m-x-md {
+  padding: 0 20px;
+}
+.m-y-md {
+  padding: 20px 0;
+}
+.m-t-md {
+  padding: 20px 0 0 0;
+}
+.m-r-md {
+  padding: 0 20px 0 0;
+}
+.m-b-md {
+  padding: 0 0 20px 0;
+}
+.m-l-md {
+  padding: 0 0 0 20px;
+}
+
+/* lg (40px) */
+.m-lg {
+  padding: 40px;
+}
+.m-x-lg {
+  padding: 0 40px;
+}
+.m-y-lg {
+  padding: 40px 0;
+}
+.m-t-lg {
+  padding: 40px 0 0 0;
+}
+.m-r-lg {
+  padding: 0 40px 0 0;
+}
+.m-b-lg {
+  padding: 0 0 40px 0;
+}
+.m-l-lg {
+  padding: 0 0 0 40px;
+}

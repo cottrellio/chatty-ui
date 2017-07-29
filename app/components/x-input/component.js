@@ -4,7 +4,7 @@ const { Component, computed, get } = Ember;
 
 export default Component.extend({
 
-  classNames: ['input-field'],
+  localClassNames: 'group',
   type: 'text',
 
   _errorMessages: computed('errors.[]', function() {

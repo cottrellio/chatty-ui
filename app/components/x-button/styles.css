@@ -1,0 +1,65 @@
+@import '../../styles/core/colors';
+
+.button {
+  padding: 20px;
+  border: 0;
+  border-radius: 3px;
+
+  &.primary {
+    background: var(--PRIMARY);
+    color: var(--LIGHT1);
+
+    &:hover {
+      background: color(var(--PRIMARY) lighten(10%))
+    }
+  }
+
+  &.secondary {
+    background: var(--SECONDARY);
+    color: var(--LIGHT1);
+
+    &:hover {
+      background: color(var(--SECONDARY) tint(10%))
+    }
+  }
+
+  &.success {
+    background: var(--SUCCESS);
+    color: var(--LIGHT1);
+
+    &:hover {
+      background: color(var(--SUCCESS) tint(10%))
+    }
+  }
+
+  &.warning {
+    background: var(--WARNING);
+    color: var(--LIGHT1);
+
+    &:hover {
+      background: color(var(--WARNING) tint(10%))
+    }
+  }
+
+  &.error {
+    background: var(--ERROR);
+    color: var(--LIGHT1);
+
+    &:hover {
+      background: color(var(--ERROR) tint(10%))
+    }
+  }
+
+  &.info {
+    background: var(--INFO);
+    color: var(--LIGHT1);
+
+    &:hover {
+      background: color(var(--INFO) tint(10%))
+    }
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+}

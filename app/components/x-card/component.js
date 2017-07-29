@@ -4,6 +4,6 @@ const { Component } = Ember;
 
 export default Component.extend({
 
-  classNames: ['card'],
+  localClassNames: 'card',
 
 });

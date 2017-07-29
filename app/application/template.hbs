@@ -1,17 +1,5 @@
-<h1>Chatty</h1>
+{{app-navbar}}
 
-{{#if session.isAuthenticated}}
-  <p>
-    Welcome, {{ currentUser.user.email }}
-  </p>
-{{/if}}
-<ul>
-  {{#unless session.isAuthenticated}}
-    <li>{{#link-to "auth.login"}}Login{{/link-to}}</li>
-    <li>{{#link-to "auth.register"}}Register{{/link-to}}</li>
-  {{else}}
-    <li><button {{action 'logout'}}>Logout</button></li>
-  {{/unless}}
-</ul>
-
-{{outlet}}
+<div class="content">
+  {{outlet}}
+</div>

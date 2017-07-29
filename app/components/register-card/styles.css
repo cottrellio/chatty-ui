@@ -1,0 +1,11 @@
+@import '../../styles/core/colors';
+
+.card {
+  margin: 100px 0;
+}
+
+.link {
+  margin: 20px 0;
+  font-size: 18px;
+  color: var(--LIGHT4);
+}

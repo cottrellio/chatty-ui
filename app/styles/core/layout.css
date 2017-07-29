@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background: var(--DARK1);
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--LIGHT1);
+}
+
+.welcome-h1 {
+  color: var(--INFO);
+  font-family: 'Leckerli One', cursive;
+  margin-top: 100px;
+}
