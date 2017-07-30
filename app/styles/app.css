@@ -1,6 +1,14 @@
+/* 3rd Parties */
 @import 'normalize.css';
 @import 'flexboxgrid';
+
+/* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One|Roboto');
+
+/* Core */
 @import './core/colors';
 @import './core/layout';
 @import './core/gutters';
+
+/* Vendor Overrides */
+@import './vendors/toastr';

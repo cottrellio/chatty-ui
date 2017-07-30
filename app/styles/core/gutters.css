@@ -100,25 +100,25 @@
 \* +++++++++++++++++++++ */
 
 /* xs (5px) */
-.m-xs {
+.p-xs {
   padding: 5px;
 }
-.m-x-xs {
+.p-x-xs {
   padding: 0 5px;
 }
-.m-y-xs {
+.p-y-xs {
   padding: 5px 0;
 }
-.m-t-xs {
+.p-t-xs {
   padding: 5px 0 0 0;
 }
-.m-r-xs {
+.p-r-xs {
   padding: 0 5px 0 0;
 }
-.m-b-xs {
+.p-b-xs {
   padding: 0 0 5px 0;
 }
-.m-l-xs {
+.p-l-xs {
   padding: 0 0 0 5px;
 }
 

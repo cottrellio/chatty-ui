@@ -5,42 +5,48 @@
       class="col-xs-12"
       type='email'
       label='Email *'
-      value=(mut model.email)}}
+      value=(mut model.email)
+      errors=model.errors.email}}
   </div>
    <div class="row">
     {{x-input
       class="col-xs-12"
       type='text'
       label='First Name'
-      value=(mut model.firstName)}}
+      value=(mut model.firstName)
+      errors=model.errors.firstName}}
   </div>
   <div class="row">
     {{x-input
       class="col-xs-12"
       type='text'
       label='Last Name'
-      value=(mut model.lastName)}}
+      value=(mut model.lastName)
+      errors=model.errors.lastName}}
   </div>
   <div class="row">
     {{x-input
       class="col-xs-12"
       type='text'
       label='Username *'
-      value=(mut model.username)}}
+      value=(mut model.username)
+      errors=model.errors.username}}
   </div>
   <div class="row">
     {{x-input
       class="col-xs-12"
       type='password'
       label='Password *'
-      value=(mut model.password)}}
+      value=(mut model.password)
+      errors=model.errors.password}}
   </div>
   <div class="row">
     {{x-input
       class="col-xs-12"
       type='password'
       label='Confirm Password *'
-      value=(mut model.passwordConfirmation)}}
+      value=(mut model.passwordConfirmation)
+      errors=model.errors.passwordConfirmation}}
   </div>
   <div class="row">
     {{#x-button

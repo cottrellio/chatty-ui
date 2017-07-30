@@ -1,0 +1,11 @@
+@import '../core/colors';
+
+
+#toast-container > div {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.toast-error {
+  background-color: var(--ERROR);
+}

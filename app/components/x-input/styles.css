@@ -18,6 +18,7 @@
 .input {
   background: var(--LIGHT2);
   border: 0;
+  border-bottom: 2px solid color(var(--LIGHT2) shade(20%));
   border-radius: 3px;
   color: var(--DARK3);
   font-weight: 200;
@@ -32,4 +33,19 @@ input.input:-webkit-autofill {
 
 .message {
   height: 40px;
+  font-size: 13px;
+  color: var(--ERROR);
+  text-align: left;
+}
+
+.hasErrors {
+  & .label {
+    color: var(--ERROR);
+  }
+
+  & .input {
+    background: color(var(--ERROR) tint(80%));
+    border-bottom: 2px solid color(var(--ERROR) tint(50%));
+    color: var(--ERROR);
+  }
 }
